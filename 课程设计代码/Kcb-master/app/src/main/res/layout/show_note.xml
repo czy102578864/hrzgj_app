@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backke">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#00ff00"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="我的笔记"/>
+    <TextView
+        android:id="@+id/txt_note"
+        android:layout_width="match_parent"
+        android:layout_height="200sp" />
+    <Button
+        android:id="@+id/btn_jinote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加笔记"/>
+    <Button
+        android:id="@+id/btn_bnote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回"/>
+
+</LinearLayout>
